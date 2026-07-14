@@ -3,12 +3,12 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "Enter the number of rows: ";
+    cout << "Enter number of rows: ";
     cin >> n;
 
-    int odd = 1;
-
     for (int i = 1; i <= n; i++) {
+        int odd = 1;  // Reset to 1 for every row
+
         for (int j = 1; j <= i; j++) {
             cout << odd << " ";
             odd += 2;
