@@ -16,7 +16,7 @@ int main(){
      }
      //right stars
      for (int j = 0 ; j < n - i ; j++){
-        if (i==0 && j== 01) continue;
+        if (i==0 && j== 0) continue;
         cout<<"* " ;
      }
     cout<<endl;
