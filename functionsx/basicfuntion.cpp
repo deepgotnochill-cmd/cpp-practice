@@ -13,4 +13,6 @@ int main(){
    cout<<"Hi Tisha"<<endl;
    deep();//fn calling
    tisha();
+   deep();
+   tisha();
 }
