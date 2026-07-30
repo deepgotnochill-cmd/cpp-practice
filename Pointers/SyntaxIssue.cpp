@@ -6,4 +6,5 @@ int main(){
     int* p2 = &y;
     cout<<&x<<endl;
     cout<<&y<<endl;
+    cout<<* p1<<endl;
 }
