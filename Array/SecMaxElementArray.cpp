@@ -11,7 +11,8 @@ for(int i = 0 ; i < n ; i ++){
 }
 int smx = INT_MIN;
 for (int i = 0 ; i < n ; i ++){
-    if (arr[i] > smx && arr [i] != mx ) smx = arr[i];
+   if(arr[i] == mx)continue;
+   if(arr[i] > smx) smx = arr[i];
 }
 cout<<mx<<" "<<smx<<endl;
 }
