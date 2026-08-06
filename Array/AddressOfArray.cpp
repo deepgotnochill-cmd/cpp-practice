@@ -7,4 +7,5 @@ int main(){
     cout<<&arr[1]<<endl;
     cout<<&arr[2]<<endl;
     cout<<&arr[3]<<endl;
+    cout<<arr<<endl;
 }
