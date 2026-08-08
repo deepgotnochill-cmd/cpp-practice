@@ -3,7 +3,7 @@
 #include<vector>
 #include<cmath>
 using namespace std;
-void change(vector<int> v ){
+void change(vector<int>& v ){ // pass by value
     v[2] = 99;
 }
 int main(){
