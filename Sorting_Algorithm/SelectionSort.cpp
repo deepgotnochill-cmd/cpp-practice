@@ -16,6 +16,7 @@ int main(){
         if (arr[i]<mn){
             mn=arr[i];
             mnIdx = i;
+            print(arr);
         }
     }
     swap(arr[0],arr[mnIdx]);
