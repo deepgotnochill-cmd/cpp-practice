@@ -1,17 +1,19 @@
 class Solution {
   public:
     int kthSmallest(vector<int> &arr, int k) {
-        int n = arr.size();
-        for(int j = 0 ; j<k ; j++ ){
-            int mn = arr[j], mnIdx = j;
-            for(int i = j ; i<n ; i++){
-                if(arr[i]<mn){
-                    mn=arr[i];
-                    mnIdx = i;
-                }
-            }
-            swap(arr[j],arr[mnIdx]);
-        }
+        // int n = arr.size();
+        // for(int j = 0 ; j<k ; j++ ){
+        //     int mn = arr[j], mnIdx = j;
+        //     for(int i = j ; i<n ; i++){
+        //         if(arr[i]<mn){
+        //             mn=arr[i];
+        //             mnIdx = i;
+        //         }
+        //     }
+        //     swap(arr[j],arr[mnIdx]);
+        // }
+        // return arr[k-1];
+        sort(arr.begin(),arr.end());
         return arr[k-1];
     }
 };
