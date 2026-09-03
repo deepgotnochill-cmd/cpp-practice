@@ -6,4 +6,5 @@ int main(){
     string sub = s.substr(0,3);
     cout<<sub<<endl;
     cout<<s.substr(0,5)<<endl;
+    cout<<s.substr(1,2)<<endl;
 }
