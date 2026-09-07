@@ -11,5 +11,5 @@ int main(){
     int n;
     cin>>N;
     cout<<ways(n);
-    return 0
+    return 0;
 }
