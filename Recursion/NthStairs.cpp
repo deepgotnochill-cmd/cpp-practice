@@ -12,4 +12,5 @@ int main(){
     cin>>N;
     cout<<ways(n);
     return 0;
+    //sofarsogood
 }
